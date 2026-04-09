@@ -1,10 +1,11 @@
 package tours.service.controller.dto;
 
+import io.micronaut.serde.annotation.Serdeable;
+
 /**
  * DTO for incoming Tour creation requests.
- * 
- * We use a DTO instead of the entity to avoid exposing internal models directly.
  */
+@Serdeable
 public class TourRequest {
 
     private String name;
