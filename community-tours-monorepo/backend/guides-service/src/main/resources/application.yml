@@ -1,0 +1,18 @@
+micronaut:
+  application:
+    name: guides-service
+  server:
+    port: 8082
+    cors:
+      enabled: true
+      configurations:
+        web:
+          allowedOrigins:
+            - http://localhost:5173
+
+datasources:
+  default:
+    url: jdbc:h2:file:./data/guidesdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ""
