@@ -1,8 +1,8 @@
 # boat-tours-system
 
 # Authors
-Andrés Ramírez Madrigal
-Ignacio Cordero Chinchilla
+- Andrés Ramírez Madrigal
+- Ignacio Cordero Chinchilla
 
 ## Problem Description
 
