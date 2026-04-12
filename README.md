@@ -1,5 +1,9 @@
 # boat-tours-system
 
+# Authors
+Andrés Ramírez Madrigal
+Ignacio Cordero Chinchilla
+
 ## Problem Description
 
 Nowadays, many platforms allow people to connect and offer services or experiences; however, most of these systems are built as monolithic applications or have tightly coupled components. This makes them difficult to maintain, scale, and evolve over time.
